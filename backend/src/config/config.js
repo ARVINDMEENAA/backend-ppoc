@@ -61,7 +61,7 @@ const config = {
   pythonApiBaseUrl: process.env.PYTHON_API_BASE_URL, // Read from .env
   
   // CORS configuration
-  corsOrigin: process.env.CORS_ORIGIN || ['http://localhost:5173','https://price-prediction-of-crops.netlify.app/'],// Adjusted to frontend port
+  corsOrigin: process.env.CORS_ORIGIN || ['http://localhost:5173','https://price-prediction-of-crops.netlify.app'],// Adjusted to frontend port
 
   // Email configuration
   email: {
